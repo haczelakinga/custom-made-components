@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Custom made components</title>
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="hero">
+    <div class="header">
+        <p class="header__title">Custom made elements</p>
+        <a href="#radio-button-title" class="btn">Radio Button </a>
+        <a href="#checkbox-title" class="btn">Checkbox </a>
+        <a href="#toggle-title" class="btn">Toggle</a>
+        <a href="#dropdown-title" class="btn">Dropdown</a>
+        <a href="#scroll-box-title" class="btn">Scroll Box</a>
+    </div>
+</div>
+
+
+<p id="radio-button-title" class="section-title">Radio Buttons</p>
+
+<div class="row">
+    <div class="column">
+        <label class="radio-button__label">One
+            <input class="radio-button__input radio-button__input--1" type="radio" checked="checked" name="radio-1"/>
+            <span class="radio-button__checkmark radio-button__checkmark--1"></span>
+        </label>
+        <label class="radio-button__label">Two
+            <input class="radio-button__input radio-button__input--1" type="radio" name="radio-1"/>
+            <span class="radio-button__checkmark radio-button__checkmark--1"></span>
+        </label>
+        <label class="radio-button__label">Three
+            <input class="radio-button__input radio-button__input--1" type="radio" name="radio-1"/>
+            <span class="radio-button__checkmark radio-button__checkmark--1"></span>
+        </label>
+        <label class="radio-button__label">Four
+            <input class="radio-button__input radio-button__input--1" type="radio" name="radio-1"/>
+            <span class="radio-button__checkmark radio-button__checkmark--1"></span>
+        </label>
+    </div>
+
+    <div class="column">
+        <label class="radio-button__label">One
+            <input class="radio-button__input radio-button__input--2" type="radio" checked="checked" name="radio-2"/>
+            <span class="radio-button__checkmark radio-button__checkmark--2"></span>
+        </label>
+        <label class="radio-button__label">Two
+            <input class="radio-button__input radio-button__input--2" type="radio" name="radio-2"/>
+            <span class="radio-button__checkmark radio-button__checkmark--2"></span>
+        </label>
+        <label class="radio-button__label">Three
+            <input class="radio-button__input radio-button__input--2" type="radio" name="radio-2"/>
+            <span class="radio-button__checkmark radio-button__checkmark--2"></span>
+        </label>
+        <label class="radio-button__label">Four
+            <input class="radio-button__input radio-button__input--2" type="radio" name="radio-2"/>
+            <span class="radio-button__checkmark radio-button__checkmark--2"></span>
+        </label>
+    </div>
+
+    <div class="column">
+        <label class="radio-button__label">One
+            <input class="radio-button__input radio-button__input-3" type="radio" checked="checked" name="radio-3"/>
+            <span class="radio-button__checkmark radio-button__checkmark--3"></span>
+        </label>
+        <label class="radio-button__label">Two
+            <input class="radio-button__input radio-button__input-3" type="radio" name="radio-3"/>
+            <span class="radio-button__checkmark radio-button__checkmark--3"></span>
+        </label>
+        <label class="radio-button__label">Three
+            <input class="radio-button__input radio-button__input-3" type="radio" name="radio-3"/>
+            <span class="radio-button__checkmark radio-button__checkmark--3"></span>
+        </label>
+        <label class="radio-button__label">Four
+            <input class="radio-button__input radio-button__input-3" type="radio" name="radio-3"/>
+            <span class="radio-button__checkmark radio-button__checkmark--3"></span>
+        </label>
+    </div>
+</div>
+
+<p id="checkbox-title" class="section-title">Checkbox</p>
+
+<div class="row">
+    <div class="column">
+        <label class="checkbox__label">One
+            <input class="checkbox__input checkbox__input--1" type="checkbox" checked="checked"/>
+            <span class="checkbox__checkmark checkbox__checkmark--1"></span>
+        </label>
+        <label class="checkbox__label">Two
+            <input class="checkbox__input checkbox__input--1" type="checkbox"/>
+            <span class="checkbox__checkmark checkbox__checkmark--1"></span>
+        </label>
+        <label class="checkbox__label">Three
+            <input class="checkbox__input checkbox__input--1" type="checkbox"/>
+            <span class="checkbox__checkmark checkbox__checkmark--1"></span>
+        </label>
+        <label class="checkbox__label">Four
+            <input class="checkbox__input checkbox__input--1" type="checkbox"/>
+            <span class="checkbox__checkmark checkbox__checkmark--1"></span>
+        </label>
+    </div>
+
+    <div class="column">
+        <label class="checkbox__label">One
+            <input class="checkbox__input checkbox__input--2" type="checkbox"/>
+            <span class="checkbox__checkmark checkbox__checkmark--2 checkbox__checkmark-2-1"></span>
+        </label>
+        <label class="checkbox__label">Two
+            <input class="checkbox__input checkbox__input--2" type="checkbox" checked="checked"/>
+            <span class="checkbox__checkmark checkbox__checkmark--2 checkbox__checkmark--2-2"></span>
+        </label>
+        <label class="checkbox__label">Three
+            <input class="checkbox__input checkbox__input--2" type="checkbox"/>
+            <span class="checkbox__checkmark checkbox__checkmark--2 checkbox__checkmark--2-3"></span>
+        </label>
+        <label class="checkbox__label">Four
+            <input class="checkbox__input checkbox__input--2" type="checkbox"/>
+            <span class="checkbox__checkmark checkbox__checkmark--2 checkbox__checkmark--2-4"></span>
+        </label>
+    </div>
+
+    <div class="column">
+        <label class="checkbox__label">One
+            <input class="checkbox__input checkbox__input--3" type="checkbox"/>
+            <span class="checkbox__checkmark checkbox__checkmark--3 checkbox__checkmark--3-1"></span>
+        </label>
+        <label class="checkbox__label">Two
+            <input class="checkbox__input checkbox__input--3" type="checkbox"/>
+            <span class="checkbox__checkmark checkbox__checkmark--3 checkbox__checkmark--3-2"></span>
+        </label>
+        <label class="checkbox__label">Three
+            <input class="checkbox__input checkbox__input--3" type="checkbox" checked="checked"/>
+            <span class="checkbox__checkmark checkbox__checkmark--3 checkbox__checkmark--3-3"></span>
+        </label>
+        <label class="checkbox__label">Four
+            <input class="checkbox__input checkbox__input--3" type="checkbox"/>
+            <span class="checkbox__checkmark checkbox__checkmark--3 checkbox__checkmark--3-4"></span>
+        </label>
+    </div>
+</div>
+
+<p id="toggle-title" class="section-title">Toggle</p>
+
+<div class="row">
+    <div class="column">
+        <div class="on">
+            <p>off</p>
+            <label class="toggle__label">
+                <input class="toggle__input toggle__input--switch" type="checkbox" name="radio"/>
+                <div class="toggle__checkmark toggle__checkmark--switch"></div>
+            </label>
+            <p>on</p>
+        </div>
+        <br>
+        <div class="on">
+            <p>off</p>
+            <label class="toggle__label">
+                <input class="toggle__input toggle__input--switch" type="checkbox" name="radio" checked="checked"/>
+                <div class="toggle__checkmark toggle__checkmark--switch"></div>
+            </label>
+            <p>on</p>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="on">
+            <p>off</p>
+            <label class="toggle__label">
+                <input class="toggle__input toggle__input--round" type="checkbox" name="radio"/>
+                <div class="toggle__checkmark toggle__checkmark--round"></div>
+            </label>
+            <p>on</p>
+        </div>
+        <br>
+        <div class="on">
+            <p>off</p>
+            <label class="toggle__label">
+                <input class="toggle__input toggle__input--round" type="checkbox" name="radio" checked="checked"/>
+                <div class="toggle__checkmark toggle__checkmark--round"></div>
+            </label>
+            <p>on</p>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="on">
+            <p>off</p>
+            <label class="toggle__label--square">
+                <input class="toggle__input--square" type="checkbox" name="radio"/>
+                <div class="toggle__checkmark--square"></div>
+            </label>
+            <p>on</p>
+        </div>
+        <br>
+        <div class="on">
+            <p>off</p>
+            <label class="toggle__label--square">
+                <input class="toggle__input--square" type="checkbox" name="radio" checked="checked"/>
+                <div class="toggle__checkmark--square"></div>
+            </label>
+            <p>on</p>
+        </div>
+    </div>
+</div>
+
+<p id="dropdown-title" class="section-title">Dropdown</p>
+
+<div class="row">
+    <div class="column">
+        <div class="dropdown dropdown--1">
+            <select class="dropdown__select dropdown__select--1">
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+                <option>Option 4</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="dropdown dropdown--2">
+            <select class=" dropdown__select dropdown__select--2">
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+                <option>Option 4</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<p class="section-title" id="scroll-box-title">Scroll Box</p>
+
+<div class="scroll-box">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aliquam architecto at autem, commodi
+        consectetur dolorem dolorum eos error, et fugit magnam provident quibusdam quis quisquam quo repellat
+        repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aliquam architecto at autem,
+        commodi consectetur dolorem dolorum eos error, et fugit magnam provident quibusdam quis quisquam quo repellat
+        repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aliquam architecto at autem,
+        commodi consectetur dolorem dolorum eos error, et fugit magnam provident quibusdam quis quisquam quo repellat
+        repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aliquam architecto at autem,
+        commodi consectetur dolorem dolorum eos error, et fugit magnam provident quibusdam quis quisquam quo repellat
+        repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aliquam architecto at autem,
+        commodi consectetur dolorem dolorum eos error, et fugit magnam provident quibusdam quis quisquam quo repellat
+        repellendus.</p>
+</div>
+<p class="section-title" id="popup-section-title">Modal popup</p>
+<div class="row">
+    <button id="modal-button" class="modal-button">Click here!</button>
+
+    <div id="simple-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Hello</h2>
+            <p>I am a modal popup! You can close me now.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    var modal = document.getElementById('simple-modal');
+    var modalButton = document.getElementById('modal-button');
+    var closeButton = document.getElementsByClassName('close-button')[0];
+
+    modalButton.addEventListener('click', openModal);
+    closeButton.addEventListener('click', closeModal);
+    window.addEventListener('click', outsideClick);
+
+    function openModal() {
+        modal.style.display = 'block';
+    }
+
+    function closeModal() {
+        modal.style.display = 'none';
+    }
+
+    function outsideClick(e) {
+        if (e.target === modal) {
+            modal.style.display = 'none';
+        }
+    }
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
